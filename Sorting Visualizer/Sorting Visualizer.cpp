@@ -1,4 +1,3 @@
-//testing
 #include "setup.h"
 #include "algorithms.h"
 using namespace std;
