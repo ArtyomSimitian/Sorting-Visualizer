@@ -9,9 +9,10 @@
 #include <thread>
 #include <chrono>
 #include <functional>
+using namespace std;
 
-void bubbleSortAndVisualize(std::vector<int>& barLengths);
-void insertionSortAndVisualize(std::vector<int>& barLengths);
-void mergeSortAndVisualize(std::vector<int>& barLengths);
+void bubbleSortAndVisualize(vector<int>& barLengths, bool animate);
+void insertionSortAndVisualize(vector<int>& barLengths, bool animate);
+void mergeSortAndVisualize(vector<int>& barLengths, bool animate);
 
 #endif

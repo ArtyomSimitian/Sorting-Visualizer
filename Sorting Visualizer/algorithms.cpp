@@ -1,8 +1,7 @@
 #include "algorithms.h"
 #include "setup.h"
-using namespace std;
 
-void bubbleSortAndVisualize(vector<int>& barLengths)
+void bubbleSortAndVisualize(vector<int>& barLengths, bool animate)
 {
     bool hasSwapped;
     do
@@ -15,21 +14,24 @@ void bubbleSortAndVisualize(vector<int>& barLengths)
                 swap(barLengths[i], barLengths[i + 1]);
                 hasSwapped = true;
 
-                // Clear console (Windows)
-                system("cls");
+                if (animate)
+                {
+                    // Clear console (Windows)
+                    system("cls");
 
-                // Show updated bars
-                cout << "Sorting..." << endl;
-                drawBars(barLengths);
+                    // Show updated bars
+                    cout << "Sorting..." << endl;
+                    drawBars(barLengths);
 
-                // Pause briefly to animate
-                this_thread::sleep_for(chrono::milliseconds(50));
+                    // Pause briefly to animate
+                    this_thread::sleep_for(chrono::milliseconds(50));
+                }
             }
         }
     } while (hasSwapped);
 }
 
-void insertionSortAndVisualize(vector<int>& barLengths)
+void insertionSortAndVisualize(vector<int>& barLengths, bool animate)
 {
     int n = static_cast<int>(barLengths.size());
 
@@ -44,19 +46,23 @@ void insertionSortAndVisualize(vector<int>& barLengths)
             j--;
         }
         barLengths[j + 1] = temp;
-        // Clear console (Windows)
-        system("cls");
 
-        //Show updated bars
-        cout << "Sorting..." << endl;
-        drawBars(barLengths);
+        if (animate)
+        {
+            // Clear console (Windows)
+            system("cls");
 
-        // Pause briefly to animate
-        this_thread::sleep_for(chrono::milliseconds(50));
+            //Show updated bars
+            cout << "Sorting..." << endl;
+            drawBars(barLengths);
+
+            // Pause briefly to animate
+            this_thread::sleep_for(chrono::milliseconds(50));
+        }
     }
 }
 
-void mergeSortAndVisualize(vector<int>& barLengths)
+void mergeSortAndVisualize(vector<int>& barLengths, bool animate)
 {
     // Recursive sort on [0 … N-1]
     function<void(int, int)> mergeSortRec = [&](int left, int right)
@@ -94,14 +100,18 @@ void mergeSortAndVisualize(vector<int>& barLengths)
             {
                 barLengths[left + idx] = temp[idx];
 
-                // --- VISUALIZE ONE STEP ---
-                system("cls");
-                cout << "Sorting...\n";
-                drawBars(barLengths);
-                this_thread::sleep_for(chrono::milliseconds(50));
+                if (animate)
+                {
+                    // --- VISUALIZE ONE STEP ---
+                    system("cls");
+                    cout << "Sorting...\n";
+                    drawBars(barLengths);
+                    this_thread::sleep_for(chrono::milliseconds(50));
+                }
             }
         };
 
     // call the lambda on the full array
     mergeSortRec(0, static_cast<int>(barLengths.size()) - 1);
 }
+

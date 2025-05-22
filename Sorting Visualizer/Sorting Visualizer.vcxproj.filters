@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sorting Visualizer.cpp">
+    <ClCompile Include="sortingVisualizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="setup.cpp">
@@ -30,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="algorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sortingVisualizer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

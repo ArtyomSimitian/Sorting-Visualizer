@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\Sorting Visualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\Sorting Visualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\sortingVisualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\sortingVisualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\sortingVisualizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\sortingVisualizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\setup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\setup.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\setup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\setup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\algorithms.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\algorithms.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\setup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\setup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\algorithms.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{333153D9-13C5-4E9F-9D98-7B4AF0626059}|Sorting Visualizer\\Sorting Visualizer.vcxproj|solutionrelative:Sorting Visualizer\\algorithms.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sorting Visualizer.cpp",
-              "DocumentMoniker": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\Sorting Visualizer.cpp",
-              "RelativeDocumentMoniker": "Sorting Visualizer\\Sorting Visualizer.cpp",
-              "ToolTip": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\Sorting Visualizer.cpp",
-              "RelativeToolTip": "Sorting Visualizer\\Sorting Visualizer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Title": "sortingVisualizer.cpp",
+              "DocumentMoniker": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\sortingVisualizer.cpp",
+              "RelativeDocumentMoniker": "Sorting Visualizer\\sortingVisualizer.cpp",
+              "ToolTip": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\sortingVisualizer.cpp",
+              "RelativeToolTip": "Sorting Visualizer\\sortingVisualizer.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-20T20:41:48.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "sortingVisualizer.h",
+              "DocumentMoniker": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\sortingVisualizer.h",
+              "RelativeDocumentMoniker": "Sorting Visualizer\\sortingVisualizer.h",
+              "ToolTip": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\sortingVisualizer.h",
+              "RelativeToolTip": "Sorting Visualizer\\sortingVisualizer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-22T18:56:21.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "setup.cpp",
               "DocumentMoniker": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\setup.cpp",
               "RelativeDocumentMoniker": "Sorting Visualizer\\setup.cpp",
               "ToolTip": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\setup.cpp",
               "RelativeToolTip": "Sorting Visualizer\\setup.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwCoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-20T20:41:47.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "setup.h",
+              "DocumentMoniker": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\setup.h",
+              "RelativeDocumentMoniker": "Sorting Visualizer\\setup.h",
+              "ToolTip": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\setup.h",
+              "RelativeToolTip": "Sorting Visualizer\\setup.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-22T04:34:24.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "algorithms.cpp",
               "DocumentMoniker": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\algorithms.cpp",
               "RelativeDocumentMoniker": "Sorting Visualizer\\algorithms.cpp",
               "ToolTip": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\algorithms.cpp",
               "RelativeToolTip": "Sorting Visualizer\\algorithms.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-20T20:41:46.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "algorithms.h",
+              "DocumentMoniker": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\algorithms.h",
+              "RelativeDocumentMoniker": "Sorting Visualizer\\algorithms.h",
+              "ToolTip": "C:\\Users\\simit\\OneDrive\\Documents\\GitHub\\Sorting-Visualizer\\Sorting Visualizer\\algorithms.h",
+              "RelativeToolTip": "Sorting Visualizer\\algorithms.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-22T04:34:25.209Z",
               "EditorCaption": ""
             }
           ]
